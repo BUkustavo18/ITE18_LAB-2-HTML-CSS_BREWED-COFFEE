@@ -89,21 +89,21 @@ header .navbar{
 
 
 .hero-section button {
-    display: inline-block; /* Button takes only necessary space */
-    background: #613718; /* Button background */
-    color: #fff; /* Text color */
+    display: inline-block; 
+    background: #613718; 
+    color: #fff; 
 
     font-size: 1rem; 
     font-weight: 500;
-    margin-top: 20px; /* Space between the text and button */
-    padding: 12px 30px; /* Padding inside the button */
-    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px; 
+    padding: 12px 30px; 
+    border-radius: 10px; 
     cursor: pointer;
-    transition: 0.3s ease; /* Smooth transition for hover effect */
+    transition: 0.3s ease; 
 }
 
 .hero-section button:hover {
-    background: #C06B3E; /* Hover background color */
-    color: #fff; /* Keep text white on hover */
-    border: 2px solid #c7a083; /* Border changes on hover */
+    background: #C06B3E; 
+    color: #fff; 
+    border: 2px solid #c7a083; 
 }

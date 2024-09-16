@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color:#c7a083 ;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .menu-links{
+    display: flex;
+    font-size: 1.2rem;
+    gap: 50px;
+}
+
+.navbar .logo img {
+    width: 200px; 
+    height: auto; 
+    padding-left: 10px;
+}
+
+.navbar .menu-links{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.navbar a:hover{
+    color: #C06B3E;
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.hero-section .content{
+    color: #0c0c0c;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+.hero-section .content h1{
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.hero-section .content p{
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px ;
+    font-size: 1.5rem;
+}
+.coffee-image img {
+    width: 900px; 
+    height: auto; 
+    float: right;
+    margin: 20px;
+    padding-right: 80px;
+}
+
+
+.hero-section button {
+    display: inline-block; /* Button takes only necessary space */
+    background: #613718; /* Button background */
+    color: #fff; /* Text color */
+
+    font-size: 1rem; 
+    font-weight: 500;
+    margin-top: 20px; /* Space between the text and button */
+    padding: 12px 30px; /* Padding inside the button */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    transition: 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hero-section button:hover {
+    background: #C06B3E; /* Hover background color */
+    color: #fff; /* Keep text white on hover */
+    border: 2px solid #c7a083; /* Border changes on hover */
+}
